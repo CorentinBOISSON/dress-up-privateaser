@@ -1,9 +1,30 @@
 <!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <html>
   <head>
     <title>CSS/HTML Workshop with Privateaser</title>
   </head>
   <body>
+
+
+  <div id="logo">
+    <img
+            src="logo-privateaser.svg"
+            alt="logo"
+            height="100px"
+            width="500px"
+    />
+  </div>
+
+
+  <div id="information">
+    <h3>Please fill in the information below to get a proposal: </h3>
+  </div>
+
     <div id="bar">
       <input class="js-name" type="text" placeholder="Bar name"/>
       <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
@@ -13,10 +34,24 @@
       <input class="js-name" type="text" placeholder="Booker name"/>
       <input class="js-time" type="number" placeholder="Time in h"/>
       <input class="js-persons" type="number" placeholder="Persons"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
     </div>
+
+
+
+  <div id="option">
+    <input class="js-option" type="checkbox" placeholder="Deductible option"/>
+    <label class="container"/>I want to subscribe the deductible option
+  </div>
+
+
+  <div2 id="but">
     <button id="compute">Compute</button>
-    <div id="actors"></div>
+
+  </div2>
+
+
+
+    <div2 id="actors"></div2>
     <script src="privateaser.js"></script>
     <script src="index.js"></script>
   </body>
